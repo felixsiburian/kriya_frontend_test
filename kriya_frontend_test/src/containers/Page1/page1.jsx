@@ -31,19 +31,11 @@ function Page1(){
     useEffect(() => {
         fetchData()
     }, [fetchData])
-
-    const column = [
-        {
-            title: "title",
-            dataIndex: ["title"],
-            key:"title"
-        }
-    ]
-
+    
     return (
         <body>
             <div class="header">
-                <h1>Header</h1>
+                <h1>Page1</h1>
                 <button onClick={isClick}>Checkout</button>
             </div>
             <div class="row">
